@@ -1,0 +1,80 @@
+dresden elektronik Lighting Switch¶
+Model identifiers
+
+"Lighting Switch"
+Value	Action	Button
+1002	Short release	Top Left
+1001	Hold	Top Left
+1003	Long release	Top Left
+2002	Short release	Bottom Left
+2001	Hold	Bottom Left
+2003	Long release	Bottom Left
+3002	Short release	Top Right
+3001	Hold	Top Right
+3003	Long release	Top Right
+4002	Short release	Bottom Right
+4001	Hold	Bottom Right
+4003	Long release	Bottom Right
+dresden elektronik Scene Switch¶
+Model identifiers
+
+"Scene Switch"
+Value	Action	Button
+1002	Short release	Top Left
+1001	Hold	Top Left
+1003	Long release	Top Left
+2002	Short release	Bottom Left
+2001	Hold	Bottom Left
+2003	Long release	Bottom Left
+3002	Short release	Scene 1
+4002	Short release	Scene 2
+5002	Short release	Scene 3
+6002	Short release	Scene 4
+dresden elektronik Kobold¶
+Model identifiers
+
+"Kobold"
+Value	Action	Button
+1002	Short release	Button 1
+1001	Hold	Button 1
+1003	Long release	Button 1
+GIRA / JUNG Switches and remotes¶
+Model identifiers
+
+"HS_4f_GJ_1"
+"WS_4f_J_1"
+"WS_3f_G_1"
+Value	Action	Button
+1002	Short release	Button 1
+1001	Hold	Button 1
+1003	Long release	Button 1
+2002	Short release	Button 2
+2001	Hold	Button 2
+2003	Long release	Button 2
+3002	Short release	Button 3
+4002	Short release	Button 4
+5002	Short release	Button 5
+6002	Short release	Button 6
+7002	Short release	Button 7
+8002	Short release	Button 8
+IKEA TRÅDFRI on/off switch¶
+Model identifiers
+
+"TRADFRI on/off switch"
+"TRADFRI SHORTCUT Button"
+Value	Action	Button
+1002	Short release	On
+1001	Hold	On
+1003	Long release	On
+2002	Short release	Off
+2001	Hold	Off
+2003	Long release	Off
+IKEA TRÅDFRI open/close remote¶
+Model identifiers
+
+"TRADFRI open/close remote"
+Value	Action	Button
+1002	Short release	Open
+1003	Long release	Open
+2002	Short release	Close
+2003	Long release	Close

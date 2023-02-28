@@ -1,0 +1,288 @@
+[
+    {
+        "modelids": [
+            "Lighting Switch"
+        ],
+        "buttonevents": [
+            {
+                "action": "Short release",
+                "button": "Top Left",
+                "value": "1002"
+            },
+            {
+                "action": "Hold",
+                "button": "Top Left",
+                "value": "1001"
+            },
+            {
+                "action": "Long release",
+                "button": "Top Left",
+                "value": "1003"
+            },
+            {
+                "action": "Short release",
+                "button": "Bottom Left",
+                "value": "2002"
+            },
+            {
+                "action": "Hold",
+                "button": "Bottom Left",
+                "value": "2001"
+            },
+            {
+                "action": "Long release",
+                "button": "Bottom Left",
+                "value": "2003"
+            },
+            {
+                "action": "Short release",
+                "button": "Top Right",
+                "value": "3002"
+            },
+            {
+                "action": "Hold",
+                "button": "Top Right",
+                "value": "3001"
+            },
+            {
+                "action": "Long release",
+                "button": "Top Right",
+                "value": "3003"
+            },
+            {
+                "action": "Short release",
+                "button": "Bottom Right",
+                "value": "4002"
+            },
+            {
+                "action": "Hold",
+                "button": "Bottom Right",
+                "value": "4001"
+            },
+            {
+                "action": "Long release",
+                "button": "Bottom Right",
+                "value": "4003"
+            }
+        ],
+        "manufacturer": "n/a"
+    },
+    {
+        "modelids": [
+            "Scene Switch"
+        ],
+        "buttonevents": [
+            {
+                "action": "Short release",
+                "button": "Top Left",
+                "value": "1002"
+            },
+            {
+                "action": "Hold",
+                "button": "Top Left",
+                "value": "1001"
+            },
+            {
+                "action": "Long release",
+                "button": "Top Left",
+                "value": "1003"
+            },
+            {
+                "action": "Short release",
+                "button": "Bottom Left",
+                "value": "2002"
+            },
+            {
+                "action": "Hold",
+                "button": "Bottom Left",
+                "value": "2001"
+            },
+            {
+                "action": "Long release",
+                "button": "Bottom Left",
+                "value": "2003"
+            },
+            {
+                "action": "Short release",
+                "button": "Scene 1",
+                "value": "3002"
+            },
+            {
+                "action": "Short release",
+                "button": "Scene 2",
+                "value": "4002"
+            },
+            {
+                "action": "Short release",
+                "button": "Scene 3",
+                "value": "5002"
+            },
+            {
+                "action": "Short release",
+                "button": "Scene 4",
+                "value": "6002"
+            }
+        ],
+        "manufacturer": "n/a"
+    },
+    {
+        "modelids": [
+            "Kobold"
+        ],
+        "buttonevents": [
+            {
+                "action": "Short release",
+                "button": "Button 1",
+                "value": "1002"
+            },
+            {
+                "action": "Hold",
+                "button": "Button 1",
+                "value": "1001"
+            },
+            {
+                "action": "Long release",
+                "button": "Button 1",
+                "value": "1003"
+            }
+        ],
+        "manufacturer": "n/a"
+    },
+    {
+        "modelids": [
+            "HS_4f_GJ_1",
+            "WS_4f_J_1",
+            "WS_3f_G_1"
+        ],
+        "buttonevents": [
+            {
+                "action": "Short release",
+                "button": "Button 1",
+                "value": "1002"
+            },
+            {
+                "action": "Hold",
+                "button": "Button 1",
+                "value": "1001"
+            },
+            {
+                "action": "Long release",
+                "button": "Button 1",
+                "value": "1003"
+            },
+            {
+                "action": "Short release",
+                "button": "Button 2",
+                "value": "2002"
+            },
+            {
+                "action": "Hold",
+                "button": "Button 2",
+                "value": "2001"
+            },
+            {
+                "action": "Long release",
+                "button": "Button 2",
+                "value": "2003"
+            },
+            {
+                "action": "Short release",
+                "button": "Button 3",
+                "value": "3002"
+            },
+            {
+                "action": "Short release",
+                "button": "Button 4",
+                "value": "4002"
+            },
+            {
+                "action": "Short release",
+                "button": "Button 5",
+                "value": "5002"
+            },
+            {
+                "action": "Short release",
+                "button": "Button 6",
+                "value": "6002"
+            },
+            {
+                "action": "Short release",
+                "button": "Button 7",
+                "value": "7002"
+            },
+            {
+                "action": "Short release",
+                "button": "Button 8",
+                "value": "8002"
+            }
+        ],
+        "manufacturer": "n/a"
+    },
+    {
+        "modelids": [
+            "TRADFRI on/off switch",
+            "TRADFRI SHORTCUT Button"
+        ],
+        "buttonevents": [
+            {
+                "action": "Short release",
+                "button": "On",
+                "value": "1002"
+            },
+            {
+                "action": "Hold",
+                "button": "On",
+                "value": "1001"
+            },
+            {
+                "action": "Long release",
+                "button": "On",
+                "value": "1003"
+            },
+            {
+                "action": "Short release",
+                "button": "Off",
+                "value": "2002"
+            },
+            {
+                "action": "Hold",
+                "button": "Off",
+                "value": "2001"
+            },
+            {
+                "action": "Long release",
+                "button": "Off",
+                "value": "2003"
+            }
+        ],
+        "manufacturer": "n/a"
+    },
+    {
+        "modelids": [
+            "TRADFRI open/close remote"
+        ],
+        "buttonevents": [
+            {
+                "action": "Short release",
+                "button": "Open",
+                "value": "1002"
+            },
+            {
+                "action": "Long release",
+                "button": "Open",
+                "value": "1003"
+            },
+            {
+                "action": "Short release",
+                "button": "Close",
+                "value": "2002"
+            },
+            {
+                "action": "Long release",
+                "button": "Close",
+                "value": "2003"
+            }
+        ],
+        "manufacturer": "n/a"
+    }
+]
