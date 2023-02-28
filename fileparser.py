@@ -1,14 +1,16 @@
 import json
+import io
 
 def parse_file(filename):
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='utf-8') as f:
         lines = f.readlines()
 
     parsed_file = []
     i = 0
     while i < len(lines):
         # Store the first line parsed in a variable called manuprod
-        manuprod = lines[i].strip()
+        manuprod = lines[i].strip()[:-1]
+        
 
         # Disregard the line starting by "model" and empty lines
         i += 1
@@ -42,20 +44,20 @@ def parse_file(filename):
         if modelids and len(modelids[0]) > 0:
             k = len(manuprod)
             l = len(modelids[0])
-            if k<=l+3:
-                manufacturer = manuprod[:k-l-3]
+            if l<k:
+                manufacturer = manuprod[0:k-l].strip()
             else:
-                manufacturer='n/a'
+                manufacturer=manuprod
 
         else:
-            manufacturer ='n/a'
+            manufacturer =manuprod
 
         # Append {manufacturer, modelids, buttonevents} to parsed_file
         parsed_file.append({'manufacturer': manufacturer, 'modelids': modelids, 'buttonevents': buttonevents})
 
     
     # Write parsed_file to a JSON file called file.json
-    with open('file.json', 'w') as f:
+    with open('file.json', 'w', encoding='utf-8') as f:
         json.dump(parsed_file, f)
         print ('Parsing finished')
 
