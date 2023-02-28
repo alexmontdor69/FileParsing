@@ -31,12 +31,9 @@ def parse_file(filename):
         # Store all the lines starting by a number in a list called buttonevents
         buttonevents = []
         while i < len(lines) and lines[i].strip()[0].isdigit():
-            #print (lines[i].strip( ))
-            #print (lines[i].split('\t'))
-            #print (lines[i].strip().split('\t'))
+
             if len(lines[i].strip().split('\t')) == 3:
                 value, action, button = lines[i].strip().split('\t')
-                print ({'value':value, 'action':action, 'button':button})
                 buttonevents.append({'value':value, 'action':action, 'button':button})
             i += 1
 
@@ -56,9 +53,10 @@ def parse_file(filename):
         # Append {manufacturer, modelids, buttonevents} to parsed_file
         parsed_file.append({'manufacturer': manufacturer, 'modelids': modelids, 'buttonevents': buttonevents})
 
-    print (parse_file)
+    
     # Write parsed_file to a JSON file called file.json
     with open('file.json', 'w') as f:
         json.dump(parsed_file, f)
+        print ('Parsing finished')
 
 parse_file('filename.txt')
